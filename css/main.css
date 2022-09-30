@@ -7,22 +7,70 @@ body {
     height: 100vh;
 }
 
-nav {
+header {
+    background: peachpuff;
     height: 100px;
-    width: 100%;
-    background: pink;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: flex-end;
 }
 
-main { 
+nav {
+    display: block;
+    height: 40px;
     width: 1000px;
     margin: 0 auto;
 }
 
-nav ul {
+.drop-down {
+    display: block;
     float: right;
+    height: 172px;
+    width: 200px;
+    overflow: hidden;
+
     list-style: none;
+    text-align: center;
+    border-bottom-left-radius: 5%;
+
+    transition: height 0.3s ease;
+    -webkit-transition: height 0.3s ease;
+    -moz-transition: height 0.3s ease;
 }
 
-@media screen {
-    
+.drop-down.closed {
+    height: 40px;
+}
+
+.drop-down li {
+    border-bottom: 3px solid black;
+}
+
+.drop-down li a {
+    display: block;
+    height: 40px;
+    background: peachpuff;
+    line-height: 40px;
+    text-decoration: none;
+}
+
+.drop-down.closed li:first-child a:after {
+    content: "\25BC";
+    float: right;
+    width: 50px;
+    font-size: 1.2rem;
+    margin-left: -50px;
+}
+
+.drop-down li:first-child a:after {
+    content: "\25B2";
+    float: right;
+    width: 50px;
+    font-size: 1.2rem;
+    margin-left: -50px;
+}
+
+main {
+    width: 1000px;
+    margin: 0 auto;
 }

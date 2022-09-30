@@ -2,15 +2,18 @@ body {
     height: 200vh;
 }
 
+nav {
+    z-index: 2;
+}
+
 main {
+    z-index: 1;
     display: flex;
     flex-flow: column nowrap;
 }
 
 #project1 {
-    /* background: yellow; */
-    /* margin-top: -60px; */
-    height: calc(100vh - 60px);
+    height: calc(100vh - 100px);
     display: flex;
     flex-flow: row nowrap;
     align-items: center;
@@ -24,14 +27,15 @@ main {
 }
 
 .info-container {
+    background: blue;
     height: 80%;
     width: 40%;
     outline: 1px black dotted;
 }
 
 #project2 {
+    outline: 1px #000 dashed;
     height: 100vh;
-    background: palevioletred;
     display: flex;
     flex-flow: row nowrap;
     align-items: center;
