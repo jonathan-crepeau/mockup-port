@@ -1,0 +1,28 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    height: 100vh;
+}
+
+nav {
+    height: 100px;
+    width: 100%;
+    background: pink;
+}
+
+main { 
+    width: 1000px;
+    margin: 0 auto;
+}
+
+nav ul {
+    float: right;
+    list-style: none;
+}
+
+@media screen {
+    
+}

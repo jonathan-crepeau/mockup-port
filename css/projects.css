@@ -1,0 +1,39 @@
+body {
+    height: 200vh;
+}
+
+main {
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+#project1 {
+    /* background: yellow; */
+    /* margin-top: -60px; */
+    height: calc(100vh - 60px);
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.image-placeholder {
+    height: 80%;
+    width: 40%;
+    outline: 1px black dotted;
+}
+
+.info-container {
+    height: 80%;
+    width: 40%;
+    outline: 1px black dotted;
+}
+
+#project2 {
+    height: 100vh;
+    background: palevioletred;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: space-evenly;
+}

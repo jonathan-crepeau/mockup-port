@@ -1,0 +1,17 @@
+.big-name {
+    font-size: 14vh;
+    letter-spacing: 7px;
+    position: absolute;
+}
+
+#first {
+    color: red;
+    left: 5%;
+    top: 20%;
+}
+
+#last {
+    color: blue;
+    left: 20%;
+    top: 32%;
+}
