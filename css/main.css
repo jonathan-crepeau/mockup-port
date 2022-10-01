@@ -16,6 +16,7 @@ header {
 }
 
 nav {
+    z-index: 2;
     display: block;
     height: 40px;
     width: 1000px;
@@ -71,6 +72,8 @@ nav {
 }
 
 main {
+    z-index: 1;
     width: 1000px;
     margin: 0 auto;
+    position: relative;
 }

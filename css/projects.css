@@ -20,18 +20,18 @@ main {
     justify-content: space-evenly;
 }
 
-.image-placeholder {
-    height: 80%;
-    width: 40%;
-    outline: 1px black dotted;
-}
+    .image-placeholder {
+        height: 80%;
+        width: 40%;
+        outline: 1px black dotted;
+    }
 
-.info-container {
-    background: blue;
-    height: 80%;
-    width: 40%;
-    outline: 1px black dotted;
-}
+    .info-container {
+        background: blue;
+        height: 80%;
+        width: 40%;
+        outline: 1px black dotted;
+    }
 
 #project2 {
     outline: 1px #000 dashed;
